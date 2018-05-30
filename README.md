@@ -1,4 +1,3 @@
-áéíóúñ
 # Ejercicios Python
 ## Triángulo espejo
 Escribir un programa que solicite el tamaño y el caracter con el que va a dibujar el triángulo y que dibuje el triángulo de derecha hacia la izquierda, imprimiendo al final del triángulo el número de caracteres que ha impreso
