@@ -1,14 +1,23 @@
-nInput = input()
-n = int(nInput)
+n = int(input())
 
-for i in range(0, n):
-    numeros = n - i
-    linea = ''
-    
-    for j in range(0, numeros):
+for i in range(n): # range (0, n)
+# for se ejectua siempre que cumpla la condicion i [0, n>
+
+    for j in range(n - i):
         if (i + j) % 2 == 0:
-            linea += '1'
+            print('1',end='') # EOL \n
         else:
-            linea += '0'
+            print('0',end='')
+    
+    print('')
+    
+# n = 5
+# iteraciones    lon cadena        
+# i = 0              5
+# i = 1              4
+# i = 2              3
+# i = 3              2
+# i = 4              1
+# i = 5 corte        -
 
-    print(linea)
+# (i + j) % 2 == 0 -> 1 else -> 0
